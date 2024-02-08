@@ -32,23 +32,23 @@ const Links = () => {
         {links.map(link=>(
           <NavLinks item={link} key={link.title} />
         ))}
-        {session?(
+        {/* {session?(
           <>
             {isAdmin && <NavLinks item={{title: "Admin", path: "/admin"}}/>}
             <button className={styles.logout}>Logout</button>
           </>
         ):(
           <NavLinks item={{title: "Login", path: "/login"}}/>
-        )}
+        )} */}
       </div>
-      <button className={styles.menuButton}> Menu</button>
+      {/* <button className={styles.menuButton}> Menu</button>
       {open && (
         <div className={styles.mobileLinks}>
           {links.map(link=>(
           <NavLinks item={link} key={link.title} />
-        ))}
-        </div>
-      )}
+        ))} */}
+        {/* </div>
+      )} */}
     </div>
   )
 }

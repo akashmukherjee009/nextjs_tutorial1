@@ -4,7 +4,7 @@ import styles from "./home.module.css";
 export default function Home() {
   return (
     <div className={styles.container}>
-      {/* <div className={styles.textContainer}>
+      <div className={styles.textContainer}>
         <h1 className={styles.title}>Creative Thoughts Agency.</h1>
         <p className={styles.desc}>
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
@@ -20,7 +20,7 @@ export default function Home() {
       </div>
       <div className={styles.imgContainer}>
         <Image src="/hero.gif" alt="" fill className={styles.heroImg}/>
-      </div> */}
+      </div>
     </div>
   );
 }

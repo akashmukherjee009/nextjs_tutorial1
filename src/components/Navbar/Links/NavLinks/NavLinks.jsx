@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 
 const NavLinks = ({item}) => {
   const pathName = usePathname();
-
+  // console.log(item);
   return (
     <Link
       href={item.path}
