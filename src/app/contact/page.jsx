@@ -15,6 +15,10 @@ const ContactPage = () => {
   // const a = Math.random();
 
   // console.log(a);
+  const submitHandler = ()=>{
+    e.prevntDefault()
+    console.log('okk');
+  }
 
   return (
     <div className={styles.container}>
@@ -24,7 +28,7 @@ const ContactPage = () => {
       <div className={styles.formContainer}>
         {/* <HydrationTestNoSSR/> */}
         {/* <div suppressHydrationWarning>{a}</div> */}
-        <form action="" className={styles.form}>
+        <form action="" className={styles.form} >
           <input type="text" placeholder="Name and Surname" />
           <input type="text" placeholder="Email Address" />
           <input type="text" placeholder="Phone Number (Optional)" />
